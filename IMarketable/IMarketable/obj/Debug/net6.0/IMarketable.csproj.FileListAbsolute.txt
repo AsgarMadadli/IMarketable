@@ -1,0 +1,15 @@
+C:\Users\Asus\Desktop\IMarketable\IMarketable\IMarketable\bin\Debug\net6.0\IMarketable.exe
+C:\Users\Asus\Desktop\IMarketable\IMarketable\IMarketable\bin\Debug\net6.0\IMarketable.deps.json
+C:\Users\Asus\Desktop\IMarketable\IMarketable\IMarketable\bin\Debug\net6.0\IMarketable.runtimeconfig.json
+C:\Users\Asus\Desktop\IMarketable\IMarketable\IMarketable\bin\Debug\net6.0\IMarketable.dll
+C:\Users\Asus\Desktop\IMarketable\IMarketable\IMarketable\bin\Debug\net6.0\IMarketable.pdb
+C:\Users\Asus\Desktop\IMarketable\IMarketable\IMarketable\obj\Debug\net6.0\IMarketable.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\IMarketable\IMarketable\IMarketable\obj\Debug\net6.0\IMarketable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\IMarketable\IMarketable\IMarketable\obj\Debug\net6.0\IMarketable.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\IMarketable\IMarketable\IMarketable\obj\Debug\net6.0\IMarketable.AssemblyInfo.cs
+C:\Users\Asus\Desktop\IMarketable\IMarketable\IMarketable\obj\Debug\net6.0\IMarketable.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\IMarketable\IMarketable\IMarketable\obj\Debug\net6.0\IMarketable.dll
+C:\Users\Asus\Desktop\IMarketable\IMarketable\IMarketable\obj\Debug\net6.0\refint\IMarketable.dll
+C:\Users\Asus\Desktop\IMarketable\IMarketable\IMarketable\obj\Debug\net6.0\IMarketable.pdb
+C:\Users\Asus\Desktop\IMarketable\IMarketable\IMarketable\obj\Debug\net6.0\IMarketable.genruntimeconfig.cache
+C:\Users\Asus\Desktop\IMarketable\IMarketable\IMarketable\obj\Debug\net6.0\ref\IMarketable.dll
