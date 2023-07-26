@@ -8,7 +8,7 @@ namespace IMarketable.CategoryOfProductEnum
 {
     public enum CategoryOfProduct
     {
-        Notebook  = 0,
+        Notebook = 0,
         Television = 1,
         Smartphones = 2,
     }

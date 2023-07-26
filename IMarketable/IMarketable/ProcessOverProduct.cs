@@ -30,6 +30,15 @@ namespace IMarketable
                 case "1":
                     AddNewProduct.AddProduct();
                     break;
+                case "2":
+                    EditProduct.EditProducts();
+                    break;
+                case "3":
+                    DeleteProduct.DeleteProducts();
+                    break;
+                case "4":
+                    ShowProducts.ShowProduct();
+                    break;
 
             }
         }

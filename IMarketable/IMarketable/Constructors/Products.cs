@@ -7,19 +7,19 @@ using IMarketable.CategoryOfProductEnum;
 
 namespace IMarketable.Constructors
 {
-    public class ConstructsOfProducts
+    public class Products
     {
-        public ConstructsOfProducts(string name, decimal price, CategoryOfProduct category, int number, int id)
+        public Products(string productName, decimal productPrice, CategoryOfProduct productCategory, int number, int id)
         {
-            Name = name;
-            Price = price;
-            Category = category;
+            Name = productName;
+            Price = productPrice;
+            Category = productCategory;
             Number = number;
             Id = id;
         }
 
         public string Name { get; set; }
-        public decimal Price  { get; set; }
+        public decimal Price { get; set; }
         public CategoryOfProduct Category { get; set; }
         public int Number { get; set; }
         public int Id { get; set; }
