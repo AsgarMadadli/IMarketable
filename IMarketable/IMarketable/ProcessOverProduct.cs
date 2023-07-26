@@ -42,6 +42,11 @@ namespace IMarketable
                 case "5":
                     ShowProductsForCategory.productWithCategory();
                     break;
+                case "6":
+                    break;
+                case "7":
+                    SearchProductsByName.ProductsByName();
+                    break;
 
             }
         }
