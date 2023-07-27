@@ -18,24 +18,24 @@ namespace IMarketable
        public static void AddProduct()
        {
             Console.Write("Product name :");
-            string productName = Console.ReadLine();
+            string productName = Console.ReadLine()!;
 
             Console.Write("Product price :");
-            int productPrice = int.Parse(Console.ReadLine());
+            int productPrice = int.Parse(Console.ReadLine()!);
 
             Console.Write("Product category :");
-            string category = Console.ReadLine();
+            string category = Console.ReadLine()!;
             Enum.TryParse(category, out CategoryOfProduct productCategory);
 
             Console.Write("Product number :");
-            int productNumber = int.Parse(Console.ReadLine());
+            int productNumber = int.Parse(Console.ReadLine()!);
 
             Console.Write("Product Id :");
-            int productId = int.Parse(Console.ReadLine());
+            int productId = int.Parse(Console.ReadLine()!);
 
             Products product = new Products(productName, productPrice, productCategory, productNumber, productId);
             ProductsData.productsAll.Add(product);
-        }
+       }
     }
 
 }

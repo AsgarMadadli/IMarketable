@@ -19,7 +19,7 @@ namespace IMarketable
             Console.WriteLine(" - 6 Verilen mebleg araligina gore satislarin gosterilmesi");
             Console.WriteLine(" - 7 Verilmis bir tarixde olan satislarin gosterilmesi");
             Console.WriteLine("  - 8 Verilmis ID-ya esasen hemin ID-li satisin melumatlarinin gosterilmesi");
-
+            
             Console.Write("Xais olunur secim edin:");
             string command = Console.ReadLine()!;
 

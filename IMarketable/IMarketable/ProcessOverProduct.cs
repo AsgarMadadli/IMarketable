@@ -43,6 +43,7 @@ namespace IMarketable
                     ShowProductsForCategory.productWithCategory();
                     break;
                 case "6":
+                    ShowProductsByPriceRange.ProductsByPrice();
                     break;
                 case "7":
                     SearchProductsByName.ProductsByName();

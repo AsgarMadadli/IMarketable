@@ -17,7 +17,6 @@
                 string command = Console.ReadLine()!;
                 Console.WriteLine();
 
-                
 
                 switch (command)
                 {
