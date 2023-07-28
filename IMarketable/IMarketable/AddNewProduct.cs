@@ -37,5 +37,4 @@ namespace IMarketable
             ProductsData.productsAll.Add(product);
        }
     }
-
 }
