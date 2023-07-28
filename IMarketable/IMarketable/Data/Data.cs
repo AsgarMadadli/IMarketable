@@ -10,6 +10,6 @@ namespace IMarketable.Data
     public class ProductsData
     {
         public static List<Products> productsAll = new List<Products>();
-        public static List<Products> soldProducts = new List<Products>();
+        public static List<Sales> soldProducts = new List<Sales>();
     }
 }

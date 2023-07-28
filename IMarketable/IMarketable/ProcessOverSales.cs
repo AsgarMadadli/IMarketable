@@ -29,6 +29,9 @@ namespace IMarketable
                 case "1":
                     AddNewSales.salesProduct();
                     break;
+                case "2":
+                    ReturningBackOfSale.ReturnBackSale();
+                    break;
             }
         }
     }
