@@ -35,6 +35,9 @@ namespace IMarketable
                 case "3":
                     DeletionOfSales.DeleteSales();
                     break;
+                case "4":
+                    DisplayOfAllSales.DisplaySales();
+                    break;
             }
         }
     }

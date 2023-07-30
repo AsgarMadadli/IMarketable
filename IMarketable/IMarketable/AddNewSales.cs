@@ -34,7 +34,7 @@ namespace IMarketable
                     ProductsData.soldProducts.Add(soldProduct);
                     Console.WriteLine($"Sale added successfully   ID : {ProductsData.productsAll[i].Id}");
                     ProductsData.productsAll[i].Number = ProductsData.productsAll[i].Number - productNumber;
-                }               
+                }
             }
         }
     }

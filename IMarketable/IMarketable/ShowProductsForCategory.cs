@@ -20,7 +20,7 @@ namespace IMarketable
             Console.WriteLine();
 
             Console.Write("Choose category :");
-            string category = Console.ReadLine();
+            string category = Console.ReadLine()!;
             Enum.TryParse(category, out CategoryOfProduct categoryEnum);
             foreach (Products product in ProductsData.productsAll)
             {
