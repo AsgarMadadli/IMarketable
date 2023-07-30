@@ -1,5 +1,4 @@
-﻿using IMarketable.CategoryOfProductEnum;
-using IMarketable.Constructors;
+﻿using IMarketable.Constructors;
 using IMarketable.Data;
 using System;
 using System.Collections.Generic;
@@ -9,22 +8,20 @@ using System.Threading.Tasks;
 
 namespace IMarketable
 {
-    public class DeleteProduct
+    public class DeletionOfSales
     {
-
-        public static void DeleteProducts()
+        public static void DeleteSales()
         {
             Console.Write("ID: ");
             int id = int.Parse(Console.ReadLine()!);
 
-            foreach (Products product in ProductsData.productsAll)
+            foreach (Products product in ProductsData.soldProducts)
             {
                 if (product.Id == id)
                 {
-                    ProductsData.productsAll.Remove(product);
+                    ProductsData.soldProducts.Remove((Sales)product);
                 }
             }
-
         }
     }
 }

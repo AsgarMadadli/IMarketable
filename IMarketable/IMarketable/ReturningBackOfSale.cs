@@ -15,12 +15,12 @@ namespace IMarketable
             int productId = int.Parse(Console.ReadLine()!);
 
             for (int i = 0; i < ProductsData.productsAll.Count; i++)
-            { 
+            {
                 if (ProductsData.productsAll[i].Id == productId)
                 {
-                    //ProductsData.productsAll.Add(ProductsData.productsAll[i]);
-                    //Console.WriteLine($"Sale retured back successfully    ID : {ProductsData.soldProducts[i].Id}");
-                    //ProductsData.soldProducts.Remove(ProductsData.productsAll[i]);
+                    ProductsData.productsAll.Add(ProductsData.productsAll[i]);
+                    Console.WriteLine($"Sale retured back successfully    ID : {ProductsData.soldProducts[i].Id}");
+                    ProductsData.soldProducts.Remove((Constructors.Sales)ProductsData.productsAll[i]);
                 }
             }
 
